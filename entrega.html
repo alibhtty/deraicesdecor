@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=0">
+    <meta name="apple-mobile-web-app-title" content="alibhtty">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#000000" />
+	<meta name="description" content="Highly-experimental CSS-only carousel variations that use the new scroll-driven animation properties" />
+	<meta name="keywords" content="deraices decor, hogar" />
+	<meta name="author" content="4B" />
+	<link rel="shortcut icon" href="./assets/favicon-BwhNU_21.ico">
+
+    <title>Proceso de Entrega</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Hace que el cuerpo ocupe toda la pantalla */
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            background-color: #e9b88c;
+            overscroll-behavior: none;
+        }
+        .container {
+            max-width: 600px;
+            padding: 1.5rem;
+            /* background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+        }
+        h2 {
+            color: #333;
+        }
+        .step {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.1);
+            border-left: .5rem solid #dc733a;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: .5rem;
+        }
+        .back-button {
+            position: absolute;
+            top: 2rem;
+            left: 1rem;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+            font-weight: bold;
+            /* background: rgba(255, 255, 255, 0.4); */
+            padding: .5rem .6rem;
+            border-radius: .5rem;
+            /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+        }
+        .back-button svg {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/index.html" class="back-button">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Volver
+        </a>
+
+        <h2>Proceso de Entrega - 5 Días</h2>
+        <div class="step"><strong>Día 1:</strong> Confirmación de la compra y verificación de datos.</div>
+        <div class="step"><strong>Día 2:</strong> Preparación y embalaje del producto.</div>
+        <div class="step"><strong>Día 3:</strong> Envío del producto a la empresa de transporte.</div>
+        <div class="step"><strong>Día 4:</strong> Distribución y seguimiento del pedido.</div>
+        <div class="step"><strong>Día 5:</strong> Entrega en domicilio y verificación final.</div>
+    </div>
+</body>
+</html>
